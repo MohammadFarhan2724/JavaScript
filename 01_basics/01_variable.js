@@ -3,4 +3,9 @@ let accEmail = 'Farhan@gmail.com'
 var accPass = "131313"
 accCity = "Lucknow"
 
-console.log(accId);
+/*
+Prefer not to use var
+because of issue in block scope and functional scope
+*/
+
+console.table([accId, accEmail, accPass, accCity]);
