@@ -31,3 +31,20 @@ let stringNumber = String(num);
 
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ************************************ OPERATIONS ***************************************
+
+let value = 3
+let negValue = -value;
+console.log(negValue);
+
+console.log("Hello " + "World");
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+// JavaScript has a type of conversion whatever data type is in front the elements will be treated like that
+// In line no. 44 all were treated like string that is why the output came 122
+// In line no. 45 since instead of string there was a number in the starting so it performed addition first then concatenated
+// because last number was written in double quotes
